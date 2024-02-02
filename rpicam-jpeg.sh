@@ -6,3 +6,4 @@
 
 rpicam-jpeg --width 2592 --height 1944 -q 100 -t 3000 --shutter 200000 --gain 1.5 -n -o ./images/"$(date +%F-%T)".jpg
 
+#rpicam-jpeg --width 2592 --height 1944 -q 100 -t 3000 --shutter 200000 --gain 1.5 -n -o ./"$(date +%F)"/"$(date +%F-%T)".jpg

@@ -1,0 +1,459 @@
+[0:14:29.561911456] [2350] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.1.0+118-563cd78e
+[0:14:29.611950995] [2353] [1;33m WARN [1;37mRPiSdn [1;34msdn.cpp:39 [0mUsing legacy SDN tuning - please consider moving SDN inside rpi.denoise
+[0:14:29.614422585] [2353] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:444 [0mRegistered camera /base/soc/i2c0mux/i2c@1/ov5647@36 to Unicam device /dev/media4 and ISP device /dev/media1
+[0:14:29.614530288] [2353] [1;32m INFO [1;37mRPI [1;34mpipeline_base.cpp:1142 [0mUsing configuration file '/usr/local/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
+Mode selection for 1296:972:12:P
+    SGBRG10_CSI2P,640x480/0 - Score: 3296
+    SGBRG10_CSI2P,1296x972/0 - Score: 1000
+    SGBRG10_CSI2P,1920x1080/0 - Score: 1349.67
+    SGBRG10_CSI2P,2592x1944/0 - Score: 1567
+Stream configuration adjusted
+[0:14:29.615895554] [2350] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 1296x972-YUV420 (1) 1296x972-SGBRG10_CSI2P
+[0:14:29.616349458] [2353] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:608 [0mSensor: /base/soc/i2c0mux/i2c@1/ov5647@36 - Selected sensor format: 1296x972-SGBRG10_1X10 - Selected unicam format: 1296x972-pGAA
+Mode selection for 2592:1944:12:P
+    SGBRG10_CSI2P,640x480/0 - Score: 7832
+    SGBRG10_CSI2P,1296x972/0 - Score: 5536
+    SGBRG10_CSI2P,1920x1080/0 - Score: 4238.67
+    SGBRG10_CSI2P,2592x1944/0 - Score: 1000
+Stream configuration adjusted
+[0:14:32.758538975] [2350] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 2592x1944-YUV420 (1) 2592x1944-SGBRG10_CSI2P
+[0:14:32.762033761] [2353] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:608 [0mSensor: /base/soc/i2c0mux/i2c@1/ov5647@36 - Selected sensor format: 2592x1944-SGBRG10_1X10 - Selected unicam format: 2592x1944-pGAA
+Still capture image received
+ERROR: *** failed to open file ./images/02-02-2024/02-02-2024-14:01:01.jpg ***
+Subfolder '02-02-2024' already exist in '/home/pi/project492/images'.
+[0:15:28.977635143] [2385] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.1.0+118-563cd78e
+[0:15:29.027579881] [2391] [1;33m WARN [1;37mRPiSdn [1;34msdn.cpp:39 [0mUsing legacy SDN tuning - please consider moving SDN inside rpi.denoise
+[0:15:29.030112767] [2391] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:444 [0mRegistered camera /base/soc/i2c0mux/i2c@1/ov5647@36 to Unicam device /dev/media4 and ISP device /dev/media1
+[0:15:29.030222729] [2391] [1;32m INFO [1;37mRPI [1;34mpipeline_base.cpp:1142 [0mUsing configuration file '/usr/local/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
+Mode selection for 1296:972:12:P
+    SGBRG10_CSI2P,640x480/0 - Score: 3296
+    SGBRG10_CSI2P,1296x972/0 - Score: 1000
+    SGBRG10_CSI2P,1920x1080/0 - Score: 1349.67
+    SGBRG10_CSI2P,2592x1944/0 - Score: 1567
+Stream configuration adjusted
+[0:15:29.031589089] [2385] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 1296x972-YUV420 (1) 1296x972-SGBRG10_CSI2P
+[0:15:29.031982882] [2391] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:608 [0mSensor: /base/soc/i2c0mux/i2c@1/ov5647@36 - Selected sensor format: 1296x972-SGBRG10_1X10 - Selected unicam format: 1296x972-pGAA
+Mode selection for 2592:1944:12:P
+    SGBRG10_CSI2P,640x480/0 - Score: 7832
+    SGBRG10_CSI2P,1296x972/0 - Score: 5536
+    SGBRG10_CSI2P,1920x1080/0 - Score: 4238.67
+    SGBRG10_CSI2P,2592x1944/0 - Score: 1000
+Stream configuration adjusted
+[0:15:32.180646960] [2385] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 2592x1944-YUV420 (1) 2592x1944-SGBRG10_CSI2P
+[0:15:32.185025202] [2391] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:608 [0mSensor: /base/soc/i2c0mux/i2c@1/ov5647@36 - Selected sensor format: 2592x1944-SGBRG10_1X10 - Selected unicam format: 2592x1944-pGAA
+Still capture image received
+ERROR: *** failed to open file ./images/02-02-2024/02-02-2024-14:02:01.jpg ***
+Subfolder '02-02-2024' already exist in '/home/pi/project492/images'.
+[0:16:29.398063054] [2415] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.1.0+118-563cd78e
+[0:16:29.448712499] [2418] [1;33m WARN [1;37mRPiSdn [1;34msdn.cpp:39 [0mUsing legacy SDN tuning - please consider moving SDN inside rpi.denoise
+[0:16:29.451184942] [2418] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:444 [0mRegistered camera /base/soc/i2c0mux/i2c@1/ov5647@36 to Unicam device /dev/media4 and ISP device /dev/media1
+[0:16:29.451289349] [2418] [1;32m INFO [1;37mRPI [1;34mpipeline_base.cpp:1142 [0mUsing configuration file '/usr/local/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
+Mode selection for 1296:972:12:P
+    SGBRG10_CSI2P,640x480/0 - Score: 3296
+    SGBRG10_CSI2P,1296x972/0 - Score: 1000
+    SGBRG10_CSI2P,1920x1080/0 - Score: 1349.67
+    SGBRG10_CSI2P,2592x1944/0 - Score: 1567
+Stream configuration adjusted
+[0:16:29.452691819] [2415] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 1296x972-YUV420 (1) 1296x972-SGBRG10_CSI2P
+[0:16:29.453083149] [2418] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:608 [0mSensor: /base/soc/i2c0mux/i2c@1/ov5647@36 - Selected sensor format: 1296x972-SGBRG10_1X10 - Selected unicam format: 1296x972-pGAA
+Mode selection for 2592:1944:12:P
+    SGBRG10_CSI2P,640x480/0 - Score: 7832
+    SGBRG10_CSI2P,1296x972/0 - Score: 5536
+    SGBRG10_CSI2P,1920x1080/0 - Score: 4238.67
+    SGBRG10_CSI2P,2592x1944/0 - Score: 1000
+Stream configuration adjusted
+[0:16:32.601930326] [2415] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 2592x1944-YUV420 (1) 2592x1944-SGBRG10_CSI2P
+[0:16:32.606294272] [2418] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:608 [0mSensor: /base/soc/i2c0mux/i2c@1/ov5647@36 - Selected sensor format: 2592x1944-SGBRG10_1X10 - Selected unicam format: 2592x1944-pGAA
+Still capture image received
+ERROR: *** failed to open file ./images/02-02-2024/02-02-2024-14:03:01.jpg ***
+Subfolder '02-02-2024' already exist in '/home/pi/project492/images'.
+[0:17:29.859298106] [2442] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.1.0+118-563cd78e
+[0:17:29.909792060] [2445] [1;33m WARN [1;37mRPiSdn [1;34msdn.cpp:39 [0mUsing legacy SDN tuning - please consider moving SDN inside rpi.denoise
+[0:17:29.912305186] [2445] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:444 [0mRegistered camera /base/soc/i2c0mux/i2c@1/ov5647@36 to Unicam device /dev/media4 and ISP device /dev/media1
+[0:17:29.912416776] [2445] [1;32m INFO [1;37mRPI [1;34mpipeline_base.cpp:1142 [0mUsing configuration file '/usr/local/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
+Mode selection for 1296:972:12:P
+    SGBRG10_CSI2P,640x480/0 - Score: 3296
+    SGBRG10_CSI2P,1296x972/0 - Score: 1000
+    SGBRG10_CSI2P,1920x1080/0 - Score: 1349.67
+    SGBRG10_CSI2P,2592x1944/0 - Score: 1567
+Stream configuration adjusted
+[0:17:29.913785818] [2442] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 1296x972-YUV420 (1) 1296x972-SGBRG10_CSI2P
+[0:17:29.914175235] [2445] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:608 [0mSensor: /base/soc/i2c0mux/i2c@1/ov5647@36 - Selected sensor format: 1296x972-SGBRG10_1X10 - Selected unicam format: 1296x972-pGAA
+Mode selection for 2592:1944:12:P
+    SGBRG10_CSI2P,640x480/0 - Score: 7832
+    SGBRG10_CSI2P,1296x972/0 - Score: 5536
+    SGBRG10_CSI2P,1920x1080/0 - Score: 4238.67
+    SGBRG10_CSI2P,2592x1944/0 - Score: 1000
+Stream configuration adjusted
+[0:17:33.053515642] [2442] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 2592x1944-YUV420 (1) 2592x1944-SGBRG10_CSI2P
+[0:17:33.055427431] [2445] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:608 [0mSensor: /base/soc/i2c0mux/i2c@1/ov5647@36 - Selected sensor format: 2592x1944-SGBRG10_1X10 - Selected unicam format: 2592x1944-pGAA
+Still capture image received
+ERROR: *** failed to open file ./images/02-02-2024/02-02-2024-14:04:02.jpg ***
+Subfolder '02-02-2024' already exist in '/home/pi/project492/images'.
+[0:18:29.238347684] [2468] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.1.0+118-563cd78e
+[0:18:29.288813044] [2471] [1;33m WARN [1;37mRPiSdn [1;34msdn.cpp:39 [0mUsing legacy SDN tuning - please consider moving SDN inside rpi.denoise
+[0:18:29.291328066] [2471] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:444 [0mRegistered camera /base/soc/i2c0mux/i2c@1/ov5647@36 to Unicam device /dev/media4 and ISP device /dev/media1
+[0:18:29.291433249] [2471] [1;32m INFO [1;37mRPI [1;34mpipeline_base.cpp:1142 [0mUsing configuration file '/usr/local/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
+Mode selection for 1296:972:12:P
+    SGBRG10_CSI2P,640x480/0 - Score: 3296
+    SGBRG10_CSI2P,1296x972/0 - Score: 1000
+    SGBRG10_CSI2P,1920x1080/0 - Score: 1349.67
+    SGBRG10_CSI2P,2592x1944/0 - Score: 1567
+Stream configuration adjusted
+[0:18:29.292842738] [2468] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 1296x972-YUV420 (1) 1296x972-SGBRG10_CSI2P
+[0:18:29.293249619] [2471] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:608 [0mSensor: /base/soc/i2c0mux/i2c@1/ov5647@36 - Selected sensor format: 1296x972-SGBRG10_1X10 - Selected unicam format: 1296x972-pGAA
+Mode selection for 2592:1944:12:P
+    SGBRG10_CSI2P,640x480/0 - Score: 7832
+    SGBRG10_CSI2P,1296x972/0 - Score: 5536
+    SGBRG10_CSI2P,1920x1080/0 - Score: 4238.67
+    SGBRG10_CSI2P,2592x1944/0 - Score: 1000
+Stream configuration adjusted
+[0:18:32.433224604] [2468] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 2592x1944-YUV420 (1) 2592x1944-SGBRG10_CSI2P
+[0:18:32.435333486] [2471] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:608 [0mSensor: /base/soc/i2c0mux/i2c@1/ov5647@36 - Selected sensor format: 2592x1944-SGBRG10_1X10 - Selected unicam format: 2592x1944-pGAA
+Still capture image received
+ERROR: *** failed to open file ./images/02-02-2024/02-02-2024-14:05:01.jpg ***
+Subfolder '02-02-2024' already exist in '/home/pi/project492/images'.
+[0:19:29.591517760] [2493] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.1.0+118-563cd78e
+[0:19:29.642278549] [2496] [1;33m WARN [1;37mRPiSdn [1;34msdn.cpp:39 [0mUsing legacy SDN tuning - please consider moving SDN inside rpi.denoise
+[0:19:29.644962685] [2496] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:444 [0mRegistered camera /base/soc/i2c0mux/i2c@1/ov5647@36 to Unicam device /dev/media4 and ISP device /dev/media1
+[0:19:29.645205051] [2496] [1;32m INFO [1;37mRPI [1;34mpipeline_base.cpp:1142 [0mUsing configuration file '/usr/local/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
+Mode selection for 1296:972:12:P
+    SGBRG10_CSI2P,640x480/0 - Score: 3296
+    SGBRG10_CSI2P,1296x972/0 - Score: 1000
+    SGBRG10_CSI2P,1920x1080/0 - Score: 1349.67
+    SGBRG10_CSI2P,2592x1944/0 - Score: 1567
+Stream configuration adjusted
+[0:19:29.646582322] [2493] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 1296x972-YUV420 (1) 1296x972-SGBRG10_CSI2P
+[0:19:29.646980759] [2496] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:608 [0mSensor: /base/soc/i2c0mux/i2c@1/ov5647@36 - Selected sensor format: 1296x972-SGBRG10_1X10 - Selected unicam format: 1296x972-pGAA
+Mode selection for 2592:1944:12:P
+    SGBRG10_CSI2P,640x480/0 - Score: 7832
+    SGBRG10_CSI2P,1296x972/0 - Score: 5536
+    SGBRG10_CSI2P,1920x1080/0 - Score: 4238.67
+    SGBRG10_CSI2P,2592x1944/0 - Score: 1000
+Stream configuration adjusted
+[0:19:32.785325295] [2493] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 2592x1944-YUV420 (1) 2592x1944-SGBRG10_CSI2P
+[0:19:32.787766584] [2496] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:608 [0mSensor: /base/soc/i2c0mux/i2c@1/ov5647@36 - Selected sensor format: 2592x1944-SGBRG10_1X10 - Selected unicam format: 2592x1944-pGAA
+Still capture image received
+ERROR: *** failed to open file ./images/02-02-2024/02-02-2024-14:06:01.jpg ***
+Subfolder '02-02-2024' already exist in '/home/pi/project492/images'.
+[0:20:28.965996408] [2519] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.1.0+118-563cd78e
+[0:20:29.016899139] [2522] [1;33m WARN [1;37mRPiSdn [1;34msdn.cpp:39 [0mUsing legacy SDN tuning - please consider moving SDN inside rpi.denoise
+[0:20:29.019410930] [2522] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:444 [0mRegistered camera /base/soc/i2c0mux/i2c@1/ov5647@36 to Unicam device /dev/media4 and ISP device /dev/media1
+[0:20:29.019549502] [2522] [1;32m INFO [1;37mRPI [1;34mpipeline_base.cpp:1142 [0mUsing configuration file '/usr/local/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
+Mode selection for 1296:972:12:P
+    SGBRG10_CSI2P,640x480/0 - Score: 3296
+    SGBRG10_CSI2P,1296x972/0 - Score: 1000
+    SGBRG10_CSI2P,1920x1080/0 - Score: 1349.67
+    SGBRG10_CSI2P,2592x1944/0 - Score: 1567
+Stream configuration adjusted
+[0:20:29.020972756] [2519] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 1296x972-YUV420 (1) 1296x972-SGBRG10_CSI2P
+[0:20:29.021370731] [2522] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:608 [0mSensor: /base/soc/i2c0mux/i2c@1/ov5647@36 - Selected sensor format: 1296x972-SGBRG10_1X10 - Selected unicam format: 1296x972-pGAA
+Mode selection for 2592:1944:12:P
+    SGBRG10_CSI2P,640x480/0 - Score: 7832
+    SGBRG10_CSI2P,1296x972/0 - Score: 5536
+    SGBRG10_CSI2P,1920x1080/0 - Score: 4238.67
+    SGBRG10_CSI2P,2592x1944/0 - Score: 1000
+Stream configuration adjusted
+[0:20:32.161314545] [2519] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 2592x1944-YUV420 (1) 2592x1944-SGBRG10_CSI2P
+[0:20:32.163228606] [2522] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:608 [0mSensor: /base/soc/i2c0mux/i2c@1/ov5647@36 - Selected sensor format: 2592x1944-SGBRG10_1X10 - Selected unicam format: 2592x1944-pGAA
+Still capture image received
+ERROR: *** failed to open file ./images/02-02-2024/02-02-2024-14:07:01.jpg ***
+Subfolder '02-02-2024' already exist in '/home/pi/project492/images'.
+[0:21:29.348479910] [2549] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.1.0+118-563cd78e
+[0:21:29.399360456] [2553] [1;33m WARN [1;37mRPiSdn [1;34msdn.cpp:39 [0mUsing legacy SDN tuning - please consider moving SDN inside rpi.denoise
+[0:21:29.401883992] [2553] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:444 [0mRegistered camera /base/soc/i2c0mux/i2c@1/ov5647@36 to Unicam device /dev/media4 and ISP device /dev/media1
+[0:21:29.401994471] [2553] [1;32m INFO [1;37mRPI [1;34mpipeline_base.cpp:1142 [0mUsing configuration file '/usr/local/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
+Mode selection for 1296:972:12:P
+    SGBRG10_CSI2P,640x480/0 - Score: 3296
+    SGBRG10_CSI2P,1296x972/0 - Score: 1000
+    SGBRG10_CSI2P,1920x1080/0 - Score: 1349.67
+    SGBRG10_CSI2P,2592x1944/0 - Score: 1567
+Stream configuration adjusted
+[0:21:29.403398006] [2549] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 1296x972-YUV420 (1) 1296x972-SGBRG10_CSI2P
+[0:21:29.403798389] [2553] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:608 [0mSensor: /base/soc/i2c0mux/i2c@1/ov5647@36 - Selected sensor format: 1296x972-SGBRG10_1X10 - Selected unicam format: 1296x972-pGAA
+Mode selection for 2592:1944:12:P
+    SGBRG10_CSI2P,640x480/0 - Score: 7832
+    SGBRG10_CSI2P,1296x972/0 - Score: 5536
+    SGBRG10_CSI2P,1920x1080/0 - Score: 4238.67
+    SGBRG10_CSI2P,2592x1944/0 - Score: 1000
+Stream configuration adjusted
+[0:21:32.541446604] [2549] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 2592x1944-YUV420 (1) 2592x1944-SGBRG10_CSI2P
+[0:21:32.543370408] [2553] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:608 [0mSensor: /base/soc/i2c0mux/i2c@1/ov5647@36 - Selected sensor format: 2592x1944-SGBRG10_1X10 - Selected unicam format: 2592x1944-pGAA
+Still capture image received
+ERROR: *** failed to open file ./images/02-02-2024/02-02-2024-14:08:01.jpg ***
+Subfolder '02-02-2024' already exist in '/home/pi/project492/images'.
+[0:22:29.735394674] [2575] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.1.0+118-563cd78e
+[0:22:29.785905988] [2579] [1;33m WARN [1;37mRPiSdn [1;34msdn.cpp:39 [0mUsing legacy SDN tuning - please consider moving SDN inside rpi.denoise
+[0:22:29.788575358] [2579] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:444 [0mRegistered camera /base/soc/i2c0mux/i2c@1/ov5647@36 to Unicam device /dev/media4 and ISP device /dev/media1
+[0:22:29.788810911] [2579] [1;32m INFO [1;37mRPI [1;34mpipeline_base.cpp:1142 [0mUsing configuration file '/usr/local/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
+Mode selection for 1296:972:12:P
+    SGBRG10_CSI2P,640x480/0 - Score: 3296
+    SGBRG10_CSI2P,1296x972/0 - Score: 1000
+    SGBRG10_CSI2P,1920x1080/0 - Score: 1349.67
+    SGBRG10_CSI2P,2592x1944/0 - Score: 1567
+Stream configuration adjusted
+[0:22:29.790218965] [2575] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 1296x972-YUV420 (1) 1296x972-SGBRG10_CSI2P
+[0:22:29.790622163] [2579] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:608 [0mSensor: /base/soc/i2c0mux/i2c@1/ov5647@36 - Selected sensor format: 1296x972-SGBRG10_1X10 - Selected unicam format: 1296x972-pGAA
+Mode selection for 2592:1944:12:P
+    SGBRG10_CSI2P,640x480/0 - Score: 7832
+    SGBRG10_CSI2P,1296x972/0 - Score: 5536
+    SGBRG10_CSI2P,1920x1080/0 - Score: 4238.67
+    SGBRG10_CSI2P,2592x1944/0 - Score: 1000
+Stream configuration adjusted
+[0:22:32.929432780] [2575] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 2592x1944-YUV420 (1) 2592x1944-SGBRG10_CSI2P
+[0:22:32.931876617] [2579] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:608 [0mSensor: /base/soc/i2c0mux/i2c@1/ov5647@36 - Selected sensor format: 2592x1944-SGBRG10_1X10 - Selected unicam format: 2592x1944-pGAA
+Still capture image received
+ERROR: *** failed to open file ./images/02-02-2024/02-02-2024-14:09:01.jpg ***
+Subfolder '02-02-2024' already exist in '/home/pi/project492/images'.
+[0:23:29.111732237] [2609] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.1.0+118-563cd78e
+[0:23:29.162477371] [2612] [1;33m WARN [1;37mRPiSdn [1;34msdn.cpp:39 [0mUsing legacy SDN tuning - please consider moving SDN inside rpi.denoise
+[0:23:29.164988967] [2612] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:444 [0mRegistered camera /base/soc/i2c0mux/i2c@1/ov5647@36 to Unicam device /dev/media4 and ISP device /dev/media1
+[0:23:29.165095133] [2612] [1;32m INFO [1;37mRPI [1;34mpipeline_base.cpp:1142 [0mUsing configuration file '/usr/local/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
+Mode selection for 1296:972:12:P
+    SGBRG10_CSI2P,640x480/0 - Score: 3296
+    SGBRG10_CSI2P,1296x972/0 - Score: 1000
+    SGBRG10_CSI2P,1920x1080/0 - Score: 1349.67
+    SGBRG10_CSI2P,2592x1944/0 - Score: 1567
+Stream configuration adjusted
+[0:23:29.166464967] [2609] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 1296x972-YUV420 (1) 1296x972-SGBRG10_CSI2P
+[0:23:29.166855295] [2612] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:608 [0mSensor: /base/soc/i2c0mux/i2c@1/ov5647@36 - Selected sensor format: 1296x972-SGBRG10_1X10 - Selected unicam format: 1296x972-pGAA
+Mode selection for 2592:1944:12:P
+    SGBRG10_CSI2P,640x480/0 - Score: 7832
+    SGBRG10_CSI2P,1296x972/0 - Score: 5536
+    SGBRG10_CSI2P,1920x1080/0 - Score: 4238.67
+    SGBRG10_CSI2P,2592x1944/0 - Score: 1000
+Stream configuration adjusted
+[0:23:32.306085118] [2609] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 2592x1944-YUV420 (1) 2592x1944-SGBRG10_CSI2P
+[0:23:32.308036778] [2612] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:608 [0mSensor: /base/soc/i2c0mux/i2c@1/ov5647@36 - Selected sensor format: 2592x1944-SGBRG10_1X10 - Selected unicam format: 2592x1944-pGAA
+Still capture image received
+ERROR: *** failed to open file ./images/02-02-2024/02-02-2024-14:10:01.jpg ***
+Subfolder '02-02-2024' already exist in '/home/pi/project492/images'.
+[0:24:29.429046058] [2657] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.1.0+118-563cd78e
+[0:24:29.478669891] [2660] [1;33m WARN [1;37mRPiSdn [1;34msdn.cpp:39 [0mUsing legacy SDN tuning - please consider moving SDN inside rpi.denoise
+[0:24:29.481159138] [2660] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:444 [0mRegistered camera /base/soc/i2c0mux/i2c@1/ov5647@36 to Unicam device /dev/media4 and ISP device /dev/media1
+[0:24:29.481267378] [2660] [1;32m INFO [1;37mRPI [1;34mpipeline_base.cpp:1142 [0mUsing configuration file '/usr/local/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
+Mode selection for 1296:972:12:P
+    SGBRG10_CSI2P,640x480/0 - Score: 3296
+    SGBRG10_CSI2P,1296x972/0 - Score: 1000
+    SGBRG10_CSI2P,1920x1080/0 - Score: 1349.67
+    SGBRG10_CSI2P,2592x1944/0 - Score: 1567
+Stream configuration adjusted
+[0:24:29.482660694] [2657] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 1296x972-YUV420 (1) 1296x972-SGBRG10_CSI2P
+[0:24:29.483053189] [2660] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:608 [0mSensor: /base/soc/i2c0mux/i2c@1/ov5647@36 - Selected sensor format: 1296x972-SGBRG10_1X10 - Selected unicam format: 1296x972-pGAA
+Mode selection for 2592:1944:12:P
+    SGBRG10_CSI2P,640x480/0 - Score: 7832
+    SGBRG10_CSI2P,1296x972/0 - Score: 5536
+    SGBRG10_CSI2P,1920x1080/0 - Score: 4238.67
+    SGBRG10_CSI2P,2592x1944/0 - Score: 1000
+Stream configuration adjusted
+[0:24:32.621304669] [2657] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 2592x1944-YUV420 (1) 2592x1944-SGBRG10_CSI2P
+[0:24:32.623223867] [2660] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:608 [0mSensor: /base/soc/i2c0mux/i2c@1/ov5647@36 - Selected sensor format: 2592x1944-SGBRG10_1X10 - Selected unicam format: 2592x1944-pGAA
+Still capture image received
+ERROR: *** failed to open file ./images/02-02-2024/02-02-2024-14:11:01.jpg ***
+Subfolder '02-02-2024' already exist in '/home/pi/project492/images'.
+[0:25:29.747359652] [2684] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.1.0+118-563cd78e
+[0:25:29.797843613] [2687] [1;33m WARN [1;37mRPiSdn [1;34msdn.cpp:39 [0mUsing legacy SDN tuning - please consider moving SDN inside rpi.denoise
+[0:25:29.800316492] [2687] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:444 [0mRegistered camera /base/soc/i2c0mux/i2c@1/ov5647@36 to Unicam device /dev/media4 and ISP device /dev/media1
+[0:25:29.800422528] [2687] [1;32m INFO [1;37mRPI [1;34mpipeline_base.cpp:1142 [0mUsing configuration file '/usr/local/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
+Mode selection for 1296:972:12:P
+    SGBRG10_CSI2P,640x480/0 - Score: 3296
+    SGBRG10_CSI2P,1296x972/0 - Score: 1000
+    SGBRG10_CSI2P,1920x1080/0 - Score: 1349.67
+    SGBRG10_CSI2P,2592x1944/0 - Score: 1567
+Stream configuration adjusted
+[0:25:29.801803048] [2684] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 1296x972-YUV420 (1) 1296x972-SGBRG10_CSI2P
+[0:25:29.802194414] [2687] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:608 [0mSensor: /base/soc/i2c0mux/i2c@1/ov5647@36 - Selected sensor format: 1296x972-SGBRG10_1X10 - Selected unicam format: 1296x972-pGAA
+Mode selection for 2592:1944:12:P
+    SGBRG10_CSI2P,640x480/0 - Score: 7832
+    SGBRG10_CSI2P,1296x972/0 - Score: 5536
+    SGBRG10_CSI2P,1920x1080/0 - Score: 4238.67
+    SGBRG10_CSI2P,2592x1944/0 - Score: 1000
+Stream configuration adjusted
+[0:25:32.949831767] [2684] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 2592x1944-YUV420 (1) 2592x1944-SGBRG10_CSI2P
+[0:25:32.958409500] [2687] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:608 [0mSensor: /base/soc/i2c0mux/i2c@1/ov5647@36 - Selected sensor format: 2592x1944-SGBRG10_1X10 - Selected unicam format: 2592x1944-pGAA
+Still capture image received
+ERROR: *** failed to open file ./images/02-02-2024/02-02-2024-14:12:01.jpg ***
+Subfolder '02-02-2024' already exist in '/home/pi/project492/images'.
+[0:26:29.165393273] [2724] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.1.0+118-563cd78e
+[0:26:29.215623482] [2727] [1;33m WARN [1;37mRPiSdn [1;34msdn.cpp:39 [0mUsing legacy SDN tuning - please consider moving SDN inside rpi.denoise
+[0:26:29.218199101] [2727] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:444 [0mRegistered camera /base/soc/i2c0mux/i2c@1/ov5647@36 to Unicam device /dev/media4 and ISP device /dev/media1
+[0:26:29.218310729] [2727] [1;32m INFO [1;37mRPI [1;34mpipeline_base.cpp:1142 [0mUsing configuration file '/usr/local/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
+Mode selection for 1296:972:12:P
+    SGBRG10_CSI2P,640x480/0 - Score: 3296
+    SGBRG10_CSI2P,1296x972/0 - Score: 1000
+    SGBRG10_CSI2P,1920x1080/0 - Score: 1349.67
+    SGBRG10_CSI2P,2592x1944/0 - Score: 1567
+Stream configuration adjusted
+[0:26:29.219712140] [2724] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 1296x972-YUV420 (1) 1296x972-SGBRG10_CSI2P
+[0:26:29.220127950] [2727] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:608 [0mSensor: /base/soc/i2c0mux/i2c@1/ov5647@36 - Selected sensor format: 1296x972-SGBRG10_1X10 - Selected unicam format: 1296x972-pGAA
+Mode selection for 2592:1944:12:P
+    SGBRG10_CSI2P,640x480/0 - Score: 7832
+    SGBRG10_CSI2P,1296x972/0 - Score: 5536
+    SGBRG10_CSI2P,1920x1080/0 - Score: 4238.67
+    SGBRG10_CSI2P,2592x1944/0 - Score: 1000
+Stream configuration adjusted
+[0:26:32.364878633] [2724] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 2592x1944-YUV420 (1) 2592x1944-SGBRG10_CSI2P
+[0:26:32.371002490] [2727] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:608 [0mSensor: /base/soc/i2c0mux/i2c@1/ov5647@36 - Selected sensor format: 2592x1944-SGBRG10_1X10 - Selected unicam format: 2592x1944-pGAA
+Still capture image received
+ERROR: *** failed to open file ./images/02-02-2024/02-02-2024-14:13:01.jpg ***
+Subfolder '02-02-2024' already exist in '/home/pi/project492/images'.
+[0:27:29.578164216] [2755] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.1.0+118-563cd78e
+[0:27:29.628716014] [2759] [1;33m WARN [1;37mRPiSdn [1;34msdn.cpp:39 [0mUsing legacy SDN tuning - please consider moving SDN inside rpi.denoise
+[0:27:29.631174950] [2759] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:444 [0mRegistered camera /base/soc/i2c0mux/i2c@1/ov5647@36 to Unicam device /dev/media4 and ISP device /dev/media1
+[0:27:29.631279708] [2759] [1;32m INFO [1;37mRPI [1;34mpipeline_base.cpp:1142 [0mUsing configuration file '/usr/local/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
+Mode selection for 1296:972:12:P
+    SGBRG10_CSI2P,640x480/0 - Score: 3296
+    SGBRG10_CSI2P,1296x972/0 - Score: 1000
+    SGBRG10_CSI2P,1920x1080/0 - Score: 1349.67
+    SGBRG10_CSI2P,2592x1944/0 - Score: 1567
+Stream configuration adjusted
+[0:27:29.632723137] [2755] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 1296x972-YUV420 (1) 1296x972-SGBRG10_CSI2P
+[0:27:29.633130392] [2759] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:608 [0mSensor: /base/soc/i2c0mux/i2c@1/ov5647@36 - Selected sensor format: 1296x972-SGBRG10_1X10 - Selected unicam format: 1296x972-pGAA
+Mode selection for 2592:1944:12:P
+    SGBRG10_CSI2P,640x480/0 - Score: 7832
+    SGBRG10_CSI2P,1296x972/0 - Score: 5536
+    SGBRG10_CSI2P,1920x1080/0 - Score: 4238.67
+    SGBRG10_CSI2P,2592x1944/0 - Score: 1000
+Stream configuration adjusted
+[0:27:32.780479832] [2755] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 2592x1944-YUV420 (1) 2592x1944-SGBRG10_CSI2P
+[0:27:32.784885154] [2759] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:608 [0mSensor: /base/soc/i2c0mux/i2c@1/ov5647@36 - Selected sensor format: 2592x1944-SGBRG10_1X10 - Selected unicam format: 2592x1944-pGAA
+Still capture image received
+ERROR: *** failed to open file ./images/02-02-2024/02-02-2024-14:14:01.jpg ***
+Subfolder '02-02-2024' already exist in '/home/pi/project492/images'.
+[0:28:29.048715372] [2780] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.1.0+118-563cd78e
+[0:28:29.098617691] [2783] [1;33m WARN [1;37mRPiSdn [1;34msdn.cpp:39 [0mUsing legacy SDN tuning - please consider moving SDN inside rpi.denoise
+[0:28:29.101105664] [2783] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:444 [0mRegistered camera /base/soc/i2c0mux/i2c@1/ov5647@36 to Unicam device /dev/media4 and ISP device /dev/media1
+[0:28:29.101209737] [2783] [1;32m INFO [1;37mRPI [1;34mpipeline_base.cpp:1142 [0mUsing configuration file '/usr/local/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
+Mode selection for 1296:972:12:P
+    SGBRG10_CSI2P,640x480/0 - Score: 3296
+    SGBRG10_CSI2P,1296x972/0 - Score: 1000
+    SGBRG10_CSI2P,1920x1080/0 - Score: 1349.67
+    SGBRG10_CSI2P,2592x1944/0 - Score: 1567
+Stream configuration adjusted
+[0:28:29.102576760] [2780] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 1296x972-YUV420 (1) 1296x972-SGBRG10_CSI2P
+[0:28:29.103005570] [2783] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:608 [0mSensor: /base/soc/i2c0mux/i2c@1/ov5647@36 - Selected sensor format: 1296x972-SGBRG10_1X10 - Selected unicam format: 1296x972-pGAA
+Mode selection for 2592:1944:12:P
+    SGBRG10_CSI2P,640x480/0 - Score: 7832
+    SGBRG10_CSI2P,1296x972/0 - Score: 5536
+    SGBRG10_CSI2P,1920x1080/0 - Score: 4238.67
+    SGBRG10_CSI2P,2592x1944/0 - Score: 1000
+Stream configuration adjusted
+[0:28:32.241208386] [2780] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 2592x1944-YUV420 (1) 2592x1944-SGBRG10_CSI2P
+[0:28:32.243111569] [2783] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:608 [0mSensor: /base/soc/i2c0mux/i2c@1/ov5647@36 - Selected sensor format: 2592x1944-SGBRG10_1X10 - Selected unicam format: 2592x1944-pGAA
+Still capture image received
+ERROR: *** failed to open file ./images/02-02-2024/02-02-2024-14:15:01.jpg ***
+Subfolder '02-02-2024' already exist in '/home/pi/project492/images'.
+[0:29:29.420714911] [2822] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.1.0+118-563cd78e
+[0:29:29.470930998] [2825] [1;33m WARN [1;37mRPiSdn [1;34msdn.cpp:39 [0mUsing legacy SDN tuning - please consider moving SDN inside rpi.denoise
+[0:29:29.473431045] [2825] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:444 [0mRegistered camera /base/soc/i2c0mux/i2c@1/ov5647@36 to Unicam device /dev/media4 and ISP device /dev/media1
+[0:29:29.473540007] [2825] [1;32m INFO [1;37mRPI [1;34mpipeline_base.cpp:1142 [0mUsing configuration file '/usr/local/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
+Mode selection for 1296:972:12:P
+    SGBRG10_CSI2P,640x480/0 - Score: 3296
+    SGBRG10_CSI2P,1296x972/0 - Score: 1000
+    SGBRG10_CSI2P,1920x1080/0 - Score: 1349.67
+    SGBRG10_CSI2P,2592x1944/0 - Score: 1567
+Stream configuration adjusted
+[0:29:29.474912067] [2822] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 1296x972-YUV420 (1) 1296x972-SGBRG10_CSI2P
+[0:29:29.475302989] [2825] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:608 [0mSensor: /base/soc/i2c0mux/i2c@1/ov5647@36 - Selected sensor format: 1296x972-SGBRG10_1X10 - Selected unicam format: 1296x972-pGAA
+Mode selection for 2592:1944:12:P
+    SGBRG10_CSI2P,640x480/0 - Score: 7832
+    SGBRG10_CSI2P,1296x972/0 - Score: 5536
+    SGBRG10_CSI2P,1920x1080/0 - Score: 4238.67
+    SGBRG10_CSI2P,2592x1944/0 - Score: 1000
+Stream configuration adjusted
+[0:29:32.613389300] [2822] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 2592x1944-YUV420 (1) 2592x1944-SGBRG10_CSI2P
+[0:29:32.615301058] [2825] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:608 [0mSensor: /base/soc/i2c0mux/i2c@1/ov5647@36 - Selected sensor format: 2592x1944-SGBRG10_1X10 - Selected unicam format: 2592x1944-pGAA
+Still capture image received
+ERROR: *** failed to open file ./images/02-02-2024/02-02-2024-14:16:01.jpg ***
+Subfolder '02-02-2024' already exist in '/home/pi/project492/images'.
+[0:30:29.798414500] [2933] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.1.0+118-563cd78e
+[0:30:29.849204552] [2936] [1;33m WARN [1;37mRPiSdn [1;34msdn.cpp:39 [0mUsing legacy SDN tuning - please consider moving SDN inside rpi.denoise
+[0:30:29.851673360] [2936] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:444 [0mRegistered camera /base/soc/i2c0mux/i2c@1/ov5647@36 to Unicam device /dev/media4 and ISP device /dev/media1
+[0:30:29.851778600] [2936] [1;32m INFO [1;37mRPI [1;34mpipeline_base.cpp:1142 [0mUsing configuration file '/usr/local/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
+Mode selection for 1296:972:12:P
+    SGBRG10_CSI2P,640x480/0 - Score: 3296
+    SGBRG10_CSI2P,1296x972/0 - Score: 1000
+    SGBRG10_CSI2P,1920x1080/0 - Score: 1349.67
+    SGBRG10_CSI2P,2592x1944/0 - Score: 1567
+Stream configuration adjusted
+[0:30:29.853431953] [2933] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 1296x972-YUV420 (1) 1296x972-SGBRG10_CSI2P
+[0:30:29.853825468] [2936] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:608 [0mSensor: /base/soc/i2c0mux/i2c@1/ov5647@36 - Selected sensor format: 1296x972-SGBRG10_1X10 - Selected unicam format: 1296x972-pGAA
+Mode selection for 2592:1944:12:P
+    SGBRG10_CSI2P,640x480/0 - Score: 7832
+    SGBRG10_CSI2P,1296x972/0 - Score: 5536
+    SGBRG10_CSI2P,1920x1080/0 - Score: 4238.67
+    SGBRG10_CSI2P,2592x1944/0 - Score: 1000
+Stream configuration adjusted
+[0:30:32.993451814] [2933] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 2592x1944-YUV420 (1) 2592x1944-SGBRG10_CSI2P
+[0:30:32.995371609] [2936] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:608 [0mSensor: /base/soc/i2c0mux/i2c@1/ov5647@36 - Selected sensor format: 2592x1944-SGBRG10_1X10 - Selected unicam format: 2592x1944-pGAA
+Still capture image received
+ERROR: *** failed to open file ./images/02-02-2024/02-02-2024-14:17:01.jpg ***
+Subfolder '02-02-2024' already exist in '/home/pi/project492/images'.
+[0:31:29.176372740] [2978] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.1.0+118-563cd78e
+[0:31:29.226045013] [2981] [1;33m WARN [1;37mRPiSdn [1;34msdn.cpp:39 [0mUsing legacy SDN tuning - please consider moving SDN inside rpi.denoise
+[0:31:29.228551451] [2981] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:444 [0mRegistered camera /base/soc/i2c0mux/i2c@1/ov5647@36 to Unicam device /dev/media4 and ISP device /dev/media1
+[0:31:29.228656450] [2981] [1;32m INFO [1;37mRPI [1;34mpipeline_base.cpp:1142 [0mUsing configuration file '/usr/local/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
+Mode selection for 1296:972:12:P
+    SGBRG10_CSI2P,640x480/0 - Score: 3296
+    SGBRG10_CSI2P,1296x972/0 - Score: 1000
+    SGBRG10_CSI2P,1920x1080/0 - Score: 1349.67
+    SGBRG10_CSI2P,2592x1944/0 - Score: 1567
+Stream configuration adjusted
+[0:31:29.230009844] [2978] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 1296x972-YUV420 (1) 1296x972-SGBRG10_CSI2P
+[0:31:29.230410840] [2981] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:608 [0mSensor: /base/soc/i2c0mux/i2c@1/ov5647@36 - Selected sensor format: 1296x972-SGBRG10_1X10 - Selected unicam format: 1296x972-pGAA
+Mode selection for 2592:1944:12:P
+    SGBRG10_CSI2P,640x480/0 - Score: 7832
+    SGBRG10_CSI2P,1296x972/0 - Score: 5536
+    SGBRG10_CSI2P,1920x1080/0 - Score: 4238.67
+    SGBRG10_CSI2P,2592x1944/0 - Score: 1000
+Stream configuration adjusted
+[0:31:32.369536823] [2978] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 2592x1944-YUV420 (1) 2592x1944-SGBRG10_CSI2P
+[0:31:32.371449174] [2981] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:608 [0mSensor: /base/soc/i2c0mux/i2c@1/ov5647@36 - Selected sensor format: 2592x1944-SGBRG10_1X10 - Selected unicam format: 2592x1944-pGAA
+Still capture image received
+ERROR: *** failed to open file ./images/02-02-2024/02-02-2024-14:18:01.jpg ***
+Subfolder '02-02-2024' already exist in '/home/pi/project492/images'.
+[0:32:29.556797206] [3081] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.1.0+118-563cd78e
+[0:32:29.607887045] [3084] [1;33m WARN [1;37mRPiSdn [1;34msdn.cpp:39 [0mUsing legacy SDN tuning - please consider moving SDN inside rpi.denoise
+[0:32:29.610433279] [3084] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:444 [0mRegistered camera /base/soc/i2c0mux/i2c@1/ov5647@36 to Unicam device /dev/media4 and ISP device /dev/media1
+[0:32:29.610542389] [3084] [1;32m INFO [1;37mRPI [1;34mpipeline_base.cpp:1142 [0mUsing configuration file '/usr/local/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
+Mode selection for 1296:972:12:P
+    SGBRG10_CSI2P,640x480/0 - Score: 3296
+    SGBRG10_CSI2P,1296x972/0 - Score: 1000
+    SGBRG10_CSI2P,1920x1080/0 - Score: 1349.67
+    SGBRG10_CSI2P,2592x1944/0 - Score: 1567
+Stream configuration adjusted
+[0:32:29.611908634] [3081] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 1296x972-YUV420 (1) 1296x972-SGBRG10_CSI2P
+[0:32:29.612347722] [3084] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:608 [0mSensor: /base/soc/i2c0mux/i2c@1/ov5647@36 - Selected sensor format: 1296x972-SGBRG10_1X10 - Selected unicam format: 1296x972-pGAA
+Mode selection for 2592:1944:12:P
+    SGBRG10_CSI2P,640x480/0 - Score: 7832
+    SGBRG10_CSI2P,1296x972/0 - Score: 5536
+    SGBRG10_CSI2P,1920x1080/0 - Score: 4238.67
+    SGBRG10_CSI2P,2592x1944/0 - Score: 1000
+Stream configuration adjusted
+[0:32:32.753410086] [3081] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 2592x1944-YUV420 (1) 2592x1944-SGBRG10_CSI2P
+[0:32:32.755325549] [3084] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:608 [0mSensor: /base/soc/i2c0mux/i2c@1/ov5647@36 - Selected sensor format: 2592x1944-SGBRG10_1X10 - Selected unicam format: 2592x1944-pGAA
+Still capture image received
+ERROR: *** failed to open file /images/02-02-2024/02-02-2024-14:19:01.jpg ***
+Subfolder '02-02-2024' already exist in '/home/pi/project492/images'.
+[0:33:29.934213313] [3169] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.1.0+118-563cd78e
+[0:33:29.984633385] [3172] [1;33m WARN [1;37mRPiSdn [1;34msdn.cpp:39 [0mUsing legacy SDN tuning - please consider moving SDN inside rpi.denoise
+[0:33:29.987134175] [3172] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:444 [0mRegistered camera /base/soc/i2c0mux/i2c@1/ov5647@36 to Unicam device /dev/media4 and ISP device /dev/media1
+[0:33:29.987242582] [3172] [1;32m INFO [1;37mRPI [1;34mpipeline_base.cpp:1142 [0mUsing configuration file '/usr/local/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
+Mode selection for 1296:972:12:P
+    SGBRG10_CSI2P,640x480/0 - Score: 3296
+    SGBRG10_CSI2P,1296x972/0 - Score: 1000
+    SGBRG10_CSI2P,1920x1080/0 - Score: 1349.67
+    SGBRG10_CSI2P,2592x1944/0 - Score: 1567
+Stream configuration adjusted
+[0:33:29.988699938] [3169] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 1296x972-YUV420 (1) 1296x972-SGBRG10_CSI2P
+[0:33:29.989112952] [3172] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:608 [0mSensor: /base/soc/i2c0mux/i2c@1/ov5647@36 - Selected sensor format: 1296x972-SGBRG10_1X10 - Selected unicam format: 1296x972-pGAA
+Mode selection for 2592:1944:12:P
+    SGBRG10_CSI2P,640x480/0 - Score: 7832
+    SGBRG10_CSI2P,1296x972/0 - Score: 5536
+    SGBRG10_CSI2P,1920x1080/0 - Score: 4238.67
+    SGBRG10_CSI2P,2592x1944/0 - Score: 1000
+Stream configuration adjusted
+[0:33:33.129521613] [3169] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 2592x1944-YUV420 (1) 2592x1944-SGBRG10_CSI2P
+[0:33:33.132159032] [3172] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:608 [0mSensor: /base/soc/i2c0mux/i2c@1/ov5647@36 - Selected sensor format: 2592x1944-SGBRG10_1X10 - Selected unicam format: 2592x1944-pGAA
+Still capture image received
+Subfolder '02-02-2024' already exist in '/home/pi/project492/images'.
