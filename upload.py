@@ -67,12 +67,13 @@ def start_monitoring():
             time.sleep(1)
     except KeyboardInterrupt:
         observer.stop()
+        observer.join()
 
 if __name__ == "__main__":
     
     
     # Run the script in the background using nohup
-    os.system("nohup python3 upload.py &")
+    #os.system("nohup python3 upload.py &")
 
     try:
         # Start monitoring the folder for changes
