@@ -4,3 +4,5 @@
 /libcamera/libcamera
 /images
 /cronlog.log
+/ServiceAccountkey.json
+/ServiceAccountkey_appEngineDefault.json
