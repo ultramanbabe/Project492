@@ -7,7 +7,7 @@ from firebase_admin import credentials, initialize_app
 #service_account_key_path = '/home/pi/project492/ServiceAccountKey.json'
 service_account_key_path = '/home/pi/project492/ServiceAccountKey_appEngineDefault.json' 
 local_images_folder = '/home/pi/project492/images/'
-remote_images_folder = 'https://project492-9a253.appspot.com/images' 
+remote_images_folder = 'images/' 
 #os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = '/home/pi/project492/ServiceAccountKey.json'
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = '/home/pi/project492/ServiceAccountKey_appEngineDefault.json'
 # Initialize Firebase Admin SDK
