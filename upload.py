@@ -14,21 +14,13 @@ os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = '/home/pi/project492/ServiceAccou
 # Initialize Google Cloud Storage Client
 storage_client = storage.Client()
 
-# Global variable for timestamp
-timestamp = ''
-
-# Function to update the timestamp
-def update_timestamp():
-    global timestamp
-    timestamp = datetime.now().strftime('%d-%m-%Y-%T')
-
 # Watchdog event handler for monitoring file system changes
 class MyHandler(FileSystemEventHandler):
     def on_modified(self, event):
         if event.is_directory:
             return
         elif event.event_type == 'created' or event.event_type == 'modified':
-            log_message = f"{timestamp} - Change detected: {event.src_path}"
+            log_message = f"Change detected: {event.src_path}"
             upload_image(event.src_path, "images")
             log_to_file(log_message, 'upload_log.log')
 
@@ -41,7 +33,7 @@ def upload_image(local_path, cloud_path):
     blob = bucket.blob(blob_name)
     blob.upload_from_filename(local_path)
 
-    log_message = f"{timestamp} - Image uploaded Succesfully. Bucket: {bucket_name}, Blob: {blob_name}"
+    log_message = f"Image uploaded Succesfully. Bucket: {bucket_name}, Blob: {blob_name}"
     log_to_file(log_message, 'upload_log.log')
 
 # Function to perform initial scan and upload existing image
@@ -74,19 +66,17 @@ def start_monitoring():
         while True:
             time.sleep(1)
     except KeyboardInterrupt:
-        opserver.stop()
+        observer.stop()
 
 if __name__ == "__main__":
     
-    # Run the script in the background using nohup and redirect output log to upload_log.log
-    os.system('nohup python3 upload.py > upload_log.log 2>&1 &')
+    
+    # Run the script in the background using nohup
+    os.system("nohup python3 upload.py &")
 
     try:
         # Start monitoring the folder for changes
         start_monitoring()
     except KeyboardInterrupt:
-        # Handle KeyboardInterrupt to stop the script and terminate the backgrounf process
+        # Handle keyboard interrupt to stop the script and terminate the background process
         os.system("pkill -f 'python3 upload.py'")
-
-
-    
