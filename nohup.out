@@ -29515,4 +29515,117 @@ google.auth.exceptions.TransportError: HTTPSConnectionPool(host='oauth2.googleap
 google.auth.exceptions.TransportError: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fa3627c50>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
     raise new_exc from caught_exc
 google.auth.exceptions.TransportError: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fa0d37910>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         python3: can't open file '/home/pi/project492/home/pi/project492/upload,py': [Errno 2] No such file or directory
+python3: can't open file '/home/pi/project492/home/pi/project492/upload.py': [Errno 2] No such file or directory
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 704, in urlopen
+    httplib_response = self._make_request(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 399, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 239, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "/usr/lib/python3.11/http/client.py", line 1282, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.11/http/client.py", line 1328, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.11/http/client.py", line 1277, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.11/http/client.py", line 1076, in _send_output
+    self.send(chunk)
+  File "/usr/lib/python3.11/http/client.py", line 998, in send
+    self.sock.sendall(data)
+  File "/usr/lib/python3.11/ssl.py", line 1241, in sendall
+    v = self.send(byte_view[count:])
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/ssl.py", line 1210, in send
+    return self._sslobj.write(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: The write operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 489, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 788, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/util/retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/six.py", line 718, in reraise
+    raise value.with_traceback(tb)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 704, in urlopen
+    httplib_response = self._make_request(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 399, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 239, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "/usr/lib/python3.11/http/client.py", line 1282, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.11/http/client.py", line 1328, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.11/http/client.py", line 1277, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.11/http/client.py", line 1076, in _send_output
+    self.send(chunk)
+  File "/usr/lib/python3.11/http/client.py", line 998, in send
+    self.sock.sendall(data)
+  File "/usr/lib/python3.11/ssl.py", line 1241, in sendall
+    v = self.send(byte_view[count:])
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/ssl.py", line 1210, in send
+    return self._sslobj.write(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.ProtocolError: ('Connection aborted.', TimeoutError('The write operation timed out'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/project492/upload.py", line 87, in <module>
+    start_monitoring()
+  File "/home/pi/project492/upload.py", line 67, in start_monitoring
+    retroactively_upload(local_path, 'images')
+  File "/home/pi/project492/upload.py", line 51, in retroactively_upload
+    upload_image(file_path, cloud_path)
+  File "/home/pi/project492/upload.py", line 39, in upload_image
+    blob.upload_from_filename(local_path)
+  File "/usr/local/lib/python3.11/dist-packages/google/cloud/storage/blob.py", line 2929, in upload_from_filename
+    self._handle_filename_and_upload(
+  File "/usr/local/lib/python3.11/dist-packages/google/cloud/storage/blob.py", line 2799, in _handle_filename_and_upload
+    self._prep_and_do_upload(
+  File "/usr/local/lib/python3.11/dist-packages/google/cloud/storage/blob.py", line 2607, in _prep_and_do_upload
+    created_json = self._do_upload(
+                   ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/google/cloud/storage/blob.py", line 2413, in _do_upload
+    response = self._do_multipart_upload(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/google/cloud/storage/blob.py", line 1926, in _do_multipart_upload
+    response = upload.transmit(
+               ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/google/resumable_media/requests/upload.py", line 153, in transmit
+    return _request_helpers.wait_and_retry(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/google/resumable_media/requests/_request_helpers.py", line 178, in wait_and_retry
+    raise error
+  File "/usr/local/lib/python3.11/dist-packages/google/resumable_media/requests/_request_helpers.py", line 155, in wait_and_retry
+    response = func()
+               ^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/google/resumable_media/requests/upload.py", line 145, in retriable_request
+    result = transport.request(
+             ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/google/auth/transport/requests.py", line 541, in request
+    response = super(AuthorizedSession, self).request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 547, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', TimeoutError('The write operation timed out'))
