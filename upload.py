@@ -1,5 +1,6 @@
 import os
 import firebase_admin
+import time
 from firebase_admin import credentials, storage
 from datetime import datetime
 
@@ -47,6 +48,7 @@ def upload_file_to_firebase(local_path, cloud_path):
 
 
 if __name__ == '__main__':
+    time.sleep(5) 
     local_folder = '/home/pi/project492/images'
     local_files = list_files_in_local_folder(local_folder)
     cloud_files = list_files_in_firebase_storage()
