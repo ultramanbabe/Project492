@@ -1,98 +1,51 @@
 import os
-import time
-import sys
-import subprocess
+import firebase_admin
+from firebase_admin import credentials, storage
 from datetime import datetime
-from google.cloud import  storage
-from watchdog.observers import Observer
-from watchdog.events import FileSystemEventHandler
 
-#Usage 'nohub python3 upload.py > upload.log 2>&1 &'
+# Initialize Firebase
+#os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = '/home/pi/project492/ServiceAccountKey.json'
+cred = credentials.Certificate('/home/pi/project492/ServiceAccountKey.json')
+firebase_admin.initialize_app(cred, {
+    'storageBucket': 'project492-9a253.appspot.com'
+    })
+bucket = storage.bucket()
 
-
-
-# Set the name of my Google Cloud Storage Bucket
-bucket_name = 'project492-9a253.appspot.com'
-
-# Set Service Account Key
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = '/home/pi/project492/ServiceAccountKey.json'
-
-# Initialize Google Cloud Storage Client
-storage_client = storage.Client()
-
-# Watchdog event handler for monitoring file system changes
-class MyHandler(FileSystemEventHandler):
-    def on_modified(self, event):
-        if event.is_directory:
-            return
-        elif event.event_type == 'created' or event.event_type == 'modified':
-
-            timestamp = datetime.now().strftime('%d-%m-%Y-%T')
-
-            log_message = f"{timestamp} - Change detected: {event.src_path}"
-            upload_image(event.src_path, "images")
-            log_to_file(log_message, 'upload.log')
-
-# Function to upload an image to Google Cloud Storage
-def upload_image(local_path, cloud_path):
-    blob_name = cloud_path + "/" + os.path.relpath(local_path, start='/home/pi/project492/images')
-
-    # Upload image to Google Cloud Storage
-    bucket = storage_client.bucket(bucket_name)
-    blob = bucket.blob(blob_name)
-    blob.upload_from_filename(local_path)
-
-    timestamp = datetime.now().strftime('%d-%m-%Y-%T')
-
-    log_message = f"{timestamp} - Image uploaded Succesfully. Bucket: {bucket_name}, Blob: {blob_name}"
-    log_to_file(log_message, 'upload.log')
-
-# Function to perform initial scan and upload existing image
-def retroactively_upload(local_path, cloud_path):
-
-    uploaded_files = set() # Set to store uploaded file names to prevent already uploaded file
-
-    for root, dirs, files in os.walk(local_path):
+def list_files_in_local_folder(local_folder):
+    file_list = []
+    for root, dirs, files in os.walk(local_folder):
         for file in files:
             file_path = os.path.join(root, file)
-            if file not in uploaded_files:
-                upload_image(file_path, cloud_path)
-                uploaded_files.add(file)
+            cloud_path = os.path.join('images', os.path.relpath(file_path, local_folder))
+            file_list.append({'local_path': file_path, 'cloud_path': cloud_path})
+    return file_list
 
-# Function to log messages to a log file
-def log_to_file(message, filename):
-    with open(filename, 'a') as log_file:
-        log_file.write(f'{message}\n')
+def list_folders_in_local_folder(local_folder):
+    for dir in dirs: 
+        folder_path = os.path.join(root, dir)
+        cloud_path = os.path.join('images', os.path.relpath(folder_path, local_folder))
+        folder_list.append({'local_path': folder_path, 'cloud_path': cloud_path})
+    return folder_list
 
-# Function to start monitoring the images folder
-def start_monitoring():
-    event_handler = MyHandler()
-    observer = Observer()
+                            
 
-    # Set the local path on my Raspberry Pi
-    local_path = '/home/pi/project492/images'
+def list_files_in_firebase_storage():
+    blobs = bucket.list_blobs()
+    return {blob.name: blob.time_created.timestamp() for blob in blobs}
 
-    # Perform initial scan and upload existing images
-    retroactively_upload(local_path, 'images')
+def sync_files(local_files, cloud_files):
+    for local_file in local_files:
+        cloud_modification_time = cloud_files.get(local_file['cloud_path'])
+        if not cloud_modification_time or os.path.getmtime(local_file['local_path']) > cloud_modification_time:
+            upload_file_to_firebase(local_file['local_path'], local_file['cloud_path'])
 
-    observer.schedule(event_handler, path=local_path, recursive=True)
-    observer.start()
+def upload_file_to_firebase(local_path, cloud_path):
+    blob = bucket.blob(cloud_path)
+    blob.upload_from_filename(local_path)
+    print(f' Uploaded {local_path} to Firebase Storage under {cloud_path}.')
 
-    try:
-        while True:
-            time.sleep(1)
-    except KeyboardInterrupt:
-        observer.stop()
-        observer.join()
-
-if __name__ == "__main__":
-    
-  # Run the script in the background using nohup and log output to upload.log 
-  #os.system("nohup /home/pi/project492/upload.py > upload.log 2>&1 &")
-  #log_file = 'upload.log'
-  #subprocess.Popen(["nohup", "python3", "upload.py", ">", "upload.log", "2>&1", "&"])
-
-
-  # Start monitoring the folder for chages
-  start_monitoring()
-
+if __name__ == '__main__':
+    local_folder = '/home/pi/project492/images'
+    local_files = list_files_in_local_folder(local_folder)
+    cloud_files = list_files_in_firebase_storage()
+    sync_files(local_files, cloud_files)
