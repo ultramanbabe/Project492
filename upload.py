@@ -44,7 +44,7 @@ def sync_files(local_files, cloud_files):
     for cloud_path, cloud_modification_time in cloud_files.items():
         local_path = os.path.join(local_folder, os.path.relpath(cloud_path, 'images'))
         if not os.path.exists(local_path):
-            delete_file_from_firebase(cloud_path)
+            delete_file_from_firebase(local_path, cloud_path)
 
 def upload_file_to_firebase(local_path, cloud_path):
     blob = bucket.blob(cloud_path)
@@ -54,7 +54,7 @@ def upload_file_to_firebase(local_path, cloud_path):
 def delete_file_from_firebase(local_path, cloud_path):
     blob = bucket.blob(cloud_path)
     blob.delete()
-    print(f'Deleted {local_path} from Firebase')
+    print(f'Deleted {local_path} from Firebase.')
 
 
 
