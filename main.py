@@ -19,7 +19,8 @@ if not os.path.exists(subfolder_path):
     os.mkdir(subfolder_path)
     print(f"Subfolder '{subfolder_name}' created succesfilly in '{images_folder}'.")
 else:
-    print(f"Subfolder '{subfolder_name}' already exist in '{images_folder}'. Saving the " + current_time +  " image.")
+    #print(f"Subfolder '{subfolder_name}' already exist in '{images_folder}'.\nSaving the \'" + current_time +  ".jpg\' image.")
+    print(f"Saving the \'" + current_time + ".jpg\' image.")
 
 #capture image
 subprocess.run('rpicam-jpeg --width 2592 --height 1944 -q 100 -t 3000 --shutter 200000 --gain 1.5 --verbose 0 -n -o /home/pi/project492/images/"$(date "+%d-%m-%Y")"/"$(date +%d-%m-%Y-%T)".jpg' , shell=True)
