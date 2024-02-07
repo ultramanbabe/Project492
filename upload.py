@@ -7,7 +7,7 @@ from google.cloud import  storage
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 
-#Usage nohub python3 upload.py > upload.log 2>&1 &
+#Usage 'nohub python3 upload.py > upload.log 2>&1 &'
 
 
 
