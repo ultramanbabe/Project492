@@ -42,7 +42,9 @@ def sync_files(local_files, cloud_files):
 def upload_file_to_firebase(local_path, cloud_path):
     blob = bucket.blob(cloud_path)
     blob.upload_from_filename(local_path)
-    print(f' Uploaded {local_path} to Firebase Storage under {cloud_path}.')
+    print(f'Uploaded {local_path} to Firebase under {cloud_path}.')
+
+
 
 if __name__ == '__main__':
     local_folder = '/home/pi/project492/images'
