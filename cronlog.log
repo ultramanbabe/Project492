@@ -3208,3 +3208,302 @@ Stream configuration adjusted
 Still capture image received
 Subfolder '07-02-2024' already exist in '/home/pi/project492/images'.
 Uploaded /home/pi/project492/images/07-02-2024/07-02-2024-16:40:01.jpg to Firebase under images/07-02-2024/07-02-2024-16:40:01.jpg.
+[0:01:43.647126514] [1964] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.1.0+118-563cd78e
+[0:01:43.688725720] [1965] [1;33m WARN [1;37mRPiSdn [1;34msdn.cpp:39 [0mUsing legacy SDN tuning - please consider moving SDN inside rpi.denoise
+[0:01:43.692762289] [1965] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:444 [0mRegistered camera /base/soc/i2c0mux/i2c@1/ov5647@36 to Unicam device /dev/media2 and ISP device /dev/media1
+[0:01:43.692850123] [1965] [1;32m INFO [1;37mRPI [1;34mpipeline_base.cpp:1142 [0mUsing configuration file '/usr/local/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
+Mode selection for 1296:972:12:P
+    SGBRG10_CSI2P,640x480/0 - Score: 3296
+    SGBRG10_CSI2P,1296x972/0 - Score: 1000
+    SGBRG10_CSI2P,1920x1080/0 - Score: 1349.67
+    SGBRG10_CSI2P,2592x1944/0 - Score: 1567
+Stream configuration adjusted
+[0:01:43.694776870] [1964] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 1296x972-YUV420 (1) 1296x972-SGBRG10_CSI2P
+[0:01:43.695204505] [1965] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:608 [0mSensor: /base/soc/i2c0mux/i2c@1/ov5647@36 - Selected sensor format: 1296x972-SGBRG10_1X10 - Selected unicam format: 1296x972-pGAA
+Mode selection for 2592:1944:12:P
+    SGBRG10_CSI2P,640x480/0 - Score: 7832
+    SGBRG10_CSI2P,1296x972/0 - Score: 5536
+    SGBRG10_CSI2P,1920x1080/0 - Score: 4238.67
+    SGBRG10_CSI2P,2592x1944/0 - Score: 1000
+Stream configuration adjusted
+[0:01:46.838742707] [1964] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 2592x1944-YUV420 (1) 2592x1944-SGBRG10_CSI2P
+[0:01:46.842674912] [1965] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:608 [0mSensor: /base/soc/i2c0mux/i2c@1/ov5647@36 - Selected sensor format: 2592x1944-SGBRG10_1X10 - Selected unicam format: 2592x1944-pGAA
+Still capture image received
+Subfolder '07-02-2024' already exist in '/home/pi/project492/images'.
+Uploaded /home/pi/project492/images/07-02-2024/07-02-2024-18:55:01.jpg to Firebase under images/07-02-2024/07-02-2024-18:55:01.jpg.
+[0:06:44.042518737] [2037] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.1.0+118-563cd78e
+[0:06:44.084795384] [2038] [1;33m WARN [1;37mRPiSdn [1;34msdn.cpp:39 [0mUsing legacy SDN tuning - please consider moving SDN inside rpi.denoise
+[0:06:44.089140838] [2038] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:444 [0mRegistered camera /base/soc/i2c0mux/i2c@1/ov5647@36 to Unicam device /dev/media2 and ISP device /dev/media1
+[0:06:44.089237985] [2038] [1;32m INFO [1;37mRPI [1;34mpipeline_base.cpp:1142 [0mUsing configuration file '/usr/local/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
+Mode selection for 1296:972:12:P
+    SGBRG10_CSI2P,640x480/0 - Score: 3296
+    SGBRG10_CSI2P,1296x972/0 - Score: 1000
+    SGBRG10_CSI2P,1920x1080/0 - Score: 1349.67
+    SGBRG10_CSI2P,2592x1944/0 - Score: 1567
+Stream configuration adjusted
+[0:06:44.090617693] [2037] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 1296x972-YUV420 (1) 1296x972-SGBRG10_CSI2P
+[0:06:44.091071670] [2038] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:608 [0mSensor: /base/soc/i2c0mux/i2c@1/ov5647@36 - Selected sensor format: 1296x972-SGBRG10_1X10 - Selected unicam format: 1296x972-pGAA
+Mode selection for 2592:1944:12:P
+    SGBRG10_CSI2P,640x480/0 - Score: 7832
+    SGBRG10_CSI2P,1296x972/0 - Score: 5536
+    SGBRG10_CSI2P,1920x1080/0 - Score: 4238.67
+    SGBRG10_CSI2P,2592x1944/0 - Score: 1000
+Stream configuration adjusted
+[0:06:47.228821613] [2037] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 2592x1944-YUV420 (1) 2592x1944-SGBRG10_CSI2P
+[0:06:47.230544132] [2038] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:608 [0mSensor: /base/soc/i2c0mux/i2c@1/ov5647@36 - Selected sensor format: 2592x1944-SGBRG10_1X10 - Selected unicam format: 2592x1944-pGAA
+Still capture image received
+Subfolder '07-02-2024' already exist in '/home/pi/project492/images'.
+Uploaded /home/pi/project492/images/07-02-2024/07-02-2024-19:00:02.jpg to Firebase under images/07-02-2024/07-02-2024-19:00:02.jpg.
+[0:11:44.024688238] [2077] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.1.0+118-563cd78e
+[0:11:44.066752156] [2078] [1;33m WARN [1;37mRPiSdn [1;34msdn.cpp:39 [0mUsing legacy SDN tuning - please consider moving SDN inside rpi.denoise
+[0:11:44.071280269] [2078] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:444 [0mRegistered camera /base/soc/i2c0mux/i2c@1/ov5647@36 to Unicam device /dev/media2 and ISP device /dev/media1
+[0:11:44.071421620] [2078] [1;32m INFO [1;37mRPI [1;34mpipeline_base.cpp:1142 [0mUsing configuration file '/usr/local/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
+Mode selection for 1296:972:12:P
+    SGBRG10_CSI2P,640x480/0 - Score: 3296
+    SGBRG10_CSI2P,1296x972/0 - Score: 1000
+    SGBRG10_CSI2P,1920x1080/0 - Score: 1349.67
+    SGBRG10_CSI2P,2592x1944/0 - Score: 1567
+Stream configuration adjusted
+[0:11:44.073594418] [2077] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 1296x972-YUV420 (1) 1296x972-SGBRG10_CSI2P
+[0:11:44.074212802] [2078] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:608 [0mSensor: /base/soc/i2c0mux/i2c@1/ov5647@36 - Selected sensor format: 1296x972-SGBRG10_1X10 - Selected unicam format: 1296x972-pGAA
+Mode selection for 2592:1944:12:P
+    SGBRG10_CSI2P,640x480/0 - Score: 7832
+    SGBRG10_CSI2P,1296x972/0 - Score: 5536
+    SGBRG10_CSI2P,1920x1080/0 - Score: 4238.67
+    SGBRG10_CSI2P,2592x1944/0 - Score: 1000
+Stream configuration adjusted
+[0:11:47.218625571] [2077] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 2592x1944-YUV420 (1) 2592x1944-SGBRG10_CSI2P
+[0:11:47.222559930] [2078] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:608 [0mSensor: /base/soc/i2c0mux/i2c@1/ov5647@36 - Selected sensor format: 2592x1944-SGBRG10_1X10 - Selected unicam format: 2592x1944-pGAA
+Still capture image received
+Subfolder '07-02-2024' already exist in '/home/pi/project492/images'.
+Uploaded /home/pi/project492/images/07-02-2024/07-02-2024-19:05:01.jpg to Firebase under images/07-02-2024/07-02-2024-19:05:01.jpg.
+[0:16:43.860615313] [2116] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.1.0+118-563cd78e
+[0:16:43.902814871] [2117] [1;33m WARN [1;37mRPiSdn [1;34msdn.cpp:39 [0mUsing legacy SDN tuning - please consider moving SDN inside rpi.denoise
+[0:16:43.906999006] [2117] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:444 [0mRegistered camera /base/soc/i2c0mux/i2c@1/ov5647@36 to Unicam device /dev/media2 and ISP device /dev/media1
+[0:16:43.907104376] [2117] [1;32m INFO [1;37mRPI [1;34mpipeline_base.cpp:1142 [0mUsing configuration file '/usr/local/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
+Mode selection for 1296:972:12:P
+    SGBRG10_CSI2P,640x480/0 - Score: 3296
+    SGBRG10_CSI2P,1296x972/0 - Score: 1000
+    SGBRG10_CSI2P,1920x1080/0 - Score: 1349.67
+    SGBRG10_CSI2P,2592x1944/0 - Score: 1567
+Stream configuration adjusted
+[0:16:43.908572569] [2116] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 1296x972-YUV420 (1) 1296x972-SGBRG10_CSI2P
+[0:16:43.909029232] [2117] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:608 [0mSensor: /base/soc/i2c0mux/i2c@1/ov5647@36 - Selected sensor format: 1296x972-SGBRG10_1X10 - Selected unicam format: 1296x972-pGAA
+Mode selection for 2592:1944:12:P
+    SGBRG10_CSI2P,640x480/0 - Score: 7832
+    SGBRG10_CSI2P,1296x972/0 - Score: 5536
+    SGBRG10_CSI2P,1920x1080/0 - Score: 4238.67
+    SGBRG10_CSI2P,2592x1944/0 - Score: 1000
+Stream configuration adjusted
+[0:16:47.048802138] [2116] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 2592x1944-YUV420 (1) 2592x1944-SGBRG10_CSI2P
+[0:16:47.050545496] [2117] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:608 [0mSensor: /base/soc/i2c0mux/i2c@1/ov5647@36 - Selected sensor format: 2592x1944-SGBRG10_1X10 - Selected unicam format: 2592x1944-pGAA
+Still capture image received
+Subfolder '07-02-2024' already exist in '/home/pi/project492/images'.
+Uploaded /home/pi/project492/images/07-02-2024/07-02-2024-19:10:01.jpg to Firebase under images/07-02-2024/07-02-2024-19:10:01.jpg.
+[0:21:43.779405481] [2153] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.1.0+118-563cd78e
+[0:21:43.821576305] [2154] [1;33m WARN [1;37mRPiSdn [1;34msdn.cpp:39 [0mUsing legacy SDN tuning - please consider moving SDN inside rpi.denoise
+[0:21:43.825973279] [2154] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:444 [0mRegistered camera /base/soc/i2c0mux/i2c@1/ov5647@36 to Unicam device /dev/media2 and ISP device /dev/media1
+[0:21:43.826073481] [2154] [1;32m INFO [1;37mRPI [1;34mpipeline_base.cpp:1142 [0mUsing configuration file '/usr/local/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
+Mode selection for 1296:972:12:P
+    SGBRG10_CSI2P,640x480/0 - Score: 3296
+    SGBRG10_CSI2P,1296x972/0 - Score: 1000
+    SGBRG10_CSI2P,1920x1080/0 - Score: 1349.67
+    SGBRG10_CSI2P,2592x1944/0 - Score: 1567
+Stream configuration adjusted
+[0:21:43.827475498] [2153] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 1296x972-YUV420 (1) 1296x972-SGBRG10_CSI2P
+[0:21:43.828109156] [2154] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:608 [0mSensor: /base/soc/i2c0mux/i2c@1/ov5647@36 - Selected sensor format: 1296x972-SGBRG10_1X10 - Selected unicam format: 1296x972-pGAA
+Mode selection for 2592:1944:12:P
+    SGBRG10_CSI2P,640x480/0 - Score: 7832
+    SGBRG10_CSI2P,1296x972/0 - Score: 5536
+    SGBRG10_CSI2P,1920x1080/0 - Score: 4238.67
+    SGBRG10_CSI2P,2592x1944/0 - Score: 1000
+Stream configuration adjusted
+[0:21:46.968967952] [2153] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 2592x1944-YUV420 (1) 2592x1944-SGBRG10_CSI2P
+[0:21:46.970709297] [2154] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:608 [0mSensor: /base/soc/i2c0mux/i2c@1/ov5647@36 - Selected sensor format: 2592x1944-SGBRG10_1X10 - Selected unicam format: 2592x1944-pGAA
+Still capture image received
+Subfolder '07-02-2024' already exist in '/home/pi/project492/images'.
+Uploaded /home/pi/project492/images/07-02-2024/07-02-2024-19:15:01.jpg to Firebase under images/07-02-2024/07-02-2024-19:15:01.jpg.
+[0:26:43.665257101] [2196] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.1.0+118-563cd78e
+[0:26:43.706573007] [2198] [1;33m WARN [1;37mRPiSdn [1;34msdn.cpp:39 [0mUsing legacy SDN tuning - please consider moving SDN inside rpi.denoise
+[0:26:43.710917849] [2198] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:444 [0mRegistered camera /base/soc/i2c0mux/i2c@1/ov5647@36 to Unicam device /dev/media2 and ISP device /dev/media1
+[0:26:43.711020033] [2198] [1;32m INFO [1;37mRPI [1;34mpipeline_base.cpp:1142 [0mUsing configuration file '/usr/local/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
+Mode selection for 1296:972:12:P
+    SGBRG10_CSI2P,640x480/0 - Score: 3296
+    SGBRG10_CSI2P,1296x972/0 - Score: 1000
+    SGBRG10_CSI2P,1920x1080/0 - Score: 1349.67
+    SGBRG10_CSI2P,2592x1944/0 - Score: 1567
+Stream configuration adjusted
+[0:26:43.712430296] [2196] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 1296x972-YUV420 (1) 1296x972-SGBRG10_CSI2P
+[0:26:43.712861421] [2198] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:608 [0mSensor: /base/soc/i2c0mux/i2c@1/ov5647@36 - Selected sensor format: 1296x972-SGBRG10_1X10 - Selected unicam format: 1296x972-pGAA
+Mode selection for 2592:1944:12:P
+    SGBRG10_CSI2P,640x480/0 - Score: 7832
+    SGBRG10_CSI2P,1296x972/0 - Score: 5536
+    SGBRG10_CSI2P,1920x1080/0 - Score: 4238.67
+    SGBRG10_CSI2P,2592x1944/0 - Score: 1000
+Stream configuration adjusted
+[0:26:46.852794772] [2196] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 2592x1944-YUV420 (1) 2592x1944-SGBRG10_CSI2P
+[0:26:46.854537734] [2198] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:608 [0mSensor: /base/soc/i2c0mux/i2c@1/ov5647@36 - Selected sensor format: 2592x1944-SGBRG10_1X10 - Selected unicam format: 2592x1944-pGAA
+Still capture image received
+Subfolder '07-02-2024' already exist in '/home/pi/project492/images'.
+Uploaded /home/pi/project492/images/07-02-2024/07-02-2024-19:20:01.jpg to Firebase under images/07-02-2024/07-02-2024-19:20:01.jpg.
+[0:31:43.560084936] [2248] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.1.0+118-563cd78e
+[0:31:43.602454080] [2249] [1;33m WARN [1;37mRPiSdn [1;34msdn.cpp:39 [0mUsing legacy SDN tuning - please consider moving SDN inside rpi.denoise
+[0:31:43.606639947] [2249] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:444 [0mRegistered camera /base/soc/i2c0mux/i2c@1/ov5647@36 to Unicam device /dev/media2 and ISP device /dev/media1
+[0:31:43.606737575] [2249] [1;32m INFO [1;37mRPI [1;34mpipeline_base.cpp:1142 [0mUsing configuration file '/usr/local/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
+Mode selection for 1296:972:12:P
+    SGBRG10_CSI2P,640x480/0 - Score: 3296
+    SGBRG10_CSI2P,1296x972/0 - Score: 1000
+    SGBRG10_CSI2P,1920x1080/0 - Score: 1349.67
+    SGBRG10_CSI2P,2592x1944/0 - Score: 1567
+Stream configuration adjusted
+[0:31:43.608191783] [2248] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 1296x972-YUV420 (1) 1296x972-SGBRG10_CSI2P
+[0:31:43.608819703] [2249] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:608 [0mSensor: /base/soc/i2c0mux/i2c@1/ov5647@36 - Selected sensor format: 1296x972-SGBRG10_1X10 - Selected unicam format: 1296x972-pGAA
+Mode selection for 2592:1944:12:P
+    SGBRG10_CSI2P,640x480/0 - Score: 7832
+    SGBRG10_CSI2P,1296x972/0 - Score: 5536
+    SGBRG10_CSI2P,1920x1080/0 - Score: 4238.67
+    SGBRG10_CSI2P,2592x1944/0 - Score: 1000
+Stream configuration adjusted
+[0:31:46.744813843] [2248] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 2592x1944-YUV420 (1) 2592x1944-SGBRG10_CSI2P
+[0:31:46.746542585] [2249] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:608 [0mSensor: /base/soc/i2c0mux/i2c@1/ov5647@36 - Selected sensor format: 2592x1944-SGBRG10_1X10 - Selected unicam format: 2592x1944-pGAA
+Still capture image received
+Subfolder '07-02-2024' already exist in '/home/pi/project492/images'.
+Uploaded /home/pi/project492/images/07-02-2024/07-02-2024-19:25:01.jpg to Firebase under images/07-02-2024/07-02-2024-19:25:01.jpg.
+[0:36:43.572553015] [2293] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.1.0+118-563cd78e
+[0:36:43.613840977] [2294] [1;33m WARN [1;37mRPiSdn [1;34msdn.cpp:39 [0mUsing legacy SDN tuning - please consider moving SDN inside rpi.denoise
+[0:36:43.618018304] [2294] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:444 [0mRegistered camera /base/soc/i2c0mux/i2c@1/ov5647@36 to Unicam device /dev/media2 and ISP device /dev/media1
+[0:36:43.618122229] [2294] [1;32m INFO [1;37mRPI [1;34mpipeline_base.cpp:1142 [0mUsing configuration file '/usr/local/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
+Mode selection for 1296:972:12:P
+    SGBRG10_CSI2P,640x480/0 - Score: 3296
+    SGBRG10_CSI2P,1296x972/0 - Score: 1000
+    SGBRG10_CSI2P,1920x1080/0 - Score: 1349.67
+    SGBRG10_CSI2P,2592x1944/0 - Score: 1567
+Stream configuration adjusted
+[0:36:43.619494042] [2293] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 1296x972-YUV420 (1) 1296x972-SGBRG10_CSI2P
+[0:36:43.619930906] [2294] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:608 [0mSensor: /base/soc/i2c0mux/i2c@1/ov5647@36 - Selected sensor format: 1296x972-SGBRG10_1X10 - Selected unicam format: 1296x972-pGAA
+Mode selection for 2592:1944:12:P
+    SGBRG10_CSI2P,640x480/0 - Score: 7832
+    SGBRG10_CSI2P,1296x972/0 - Score: 5536
+    SGBRG10_CSI2P,1920x1080/0 - Score: 4238.67
+    SGBRG10_CSI2P,2592x1944/0 - Score: 1000
+Stream configuration adjusted
+[0:36:46.756802599] [2293] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 2592x1944-YUV420 (1) 2592x1944-SGBRG10_CSI2P
+[0:36:46.758533240] [2294] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:608 [0mSensor: /base/soc/i2c0mux/i2c@1/ov5647@36 - Selected sensor format: 2592x1944-SGBRG10_1X10 - Selected unicam format: 2592x1944-pGAA
+Still capture image received
+Subfolder '07-02-2024' already exist in '/home/pi/project492/images'.
+Uploaded /home/pi/project492/images/07-02-2024/07-02-2024-19:30:01.jpg to Firebase under images/07-02-2024/07-02-2024-19:30:01.jpg.
+[0:41:43.637205142] [2335] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.1.0+118-563cd78e
+[0:41:43.678620302] [2336] [1;33m WARN [1;37mRPiSdn [1;34msdn.cpp:39 [0mUsing legacy SDN tuning - please consider moving SDN inside rpi.denoise
+[0:41:43.682886970] [2336] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:444 [0mRegistered camera /base/soc/i2c0mux/i2c@1/ov5647@36 to Unicam device /dev/media2 and ISP device /dev/media1
+[0:41:43.682984265] [2336] [1;32m INFO [1;37mRPI [1;34mpipeline_base.cpp:1142 [0mUsing configuration file '/usr/local/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
+Mode selection for 1296:972:12:P
+    SGBRG10_CSI2P,640x480/0 - Score: 3296
+    SGBRG10_CSI2P,1296x972/0 - Score: 1000
+    SGBRG10_CSI2P,1920x1080/0 - Score: 1349.67
+    SGBRG10_CSI2P,2592x1944/0 - Score: 1567
+Stream configuration adjusted
+[0:41:43.684647392] [2335] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 1296x972-YUV420 (1) 1296x972-SGBRG10_CSI2P
+[0:41:43.685293865] [2336] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:608 [0mSensor: /base/soc/i2c0mux/i2c@1/ov5647@36 - Selected sensor format: 1296x972-SGBRG10_1X10 - Selected unicam format: 1296x972-pGAA
+Mode selection for 2592:1944:12:P
+    SGBRG10_CSI2P,640x480/0 - Score: 7832
+    SGBRG10_CSI2P,1296x972/0 - Score: 5536
+    SGBRG10_CSI2P,1920x1080/0 - Score: 4238.67
+    SGBRG10_CSI2P,2592x1944/0 - Score: 1000
+Stream configuration adjusted
+[0:41:46.828853349] [2335] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 2592x1944-YUV420 (1) 2592x1944-SGBRG10_CSI2P
+[0:41:46.830594105] [2336] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:608 [0mSensor: /base/soc/i2c0mux/i2c@1/ov5647@36 - Selected sensor format: 2592x1944-SGBRG10_1X10 - Selected unicam format: 2592x1944-pGAA
+Still capture image received
+Subfolder '07-02-2024' already exist in '/home/pi/project492/images'.
+Uploaded /home/pi/project492/images/07-02-2024/07-02-2024-19:35:01.jpg to Firebase under images/07-02-2024/07-02-2024-19:35:01.jpg.
+[0:46:43.492944473] [2374] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.1.0+118-563cd78e
+[0:46:43.534086370] [2375] [1;33m WARN [1;37mRPiSdn [1;34msdn.cpp:39 [0mUsing legacy SDN tuning - please consider moving SDN inside rpi.denoise
+[0:46:43.538268915] [2375] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:444 [0mRegistered camera /base/soc/i2c0mux/i2c@1/ov5647@36 to Unicam device /dev/media2 and ISP device /dev/media1
+[0:46:43.538368525] [2375] [1;32m INFO [1;37mRPI [1;34mpipeline_base.cpp:1142 [0mUsing configuration file '/usr/local/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
+Mode selection for 1296:972:12:P
+    SGBRG10_CSI2P,640x480/0 - Score: 3296
+    SGBRG10_CSI2P,1296x972/0 - Score: 1000
+    SGBRG10_CSI2P,1920x1080/0 - Score: 1349.67
+    SGBRG10_CSI2P,2592x1944/0 - Score: 1567
+Stream configuration adjusted
+[0:46:43.539739250] [2374] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 1296x972-YUV420 (1) 1296x972-SGBRG10_CSI2P
+[0:46:43.540182430] [2375] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:608 [0mSensor: /base/soc/i2c0mux/i2c@1/ov5647@36 - Selected sensor format: 1296x972-SGBRG10_1X10 - Selected unicam format: 1296x972-pGAA
+Mode selection for 2592:1944:12:P
+    SGBRG10_CSI2P,640x480/0 - Score: 7832
+    SGBRG10_CSI2P,1296x972/0 - Score: 5536
+    SGBRG10_CSI2P,1920x1080/0 - Score: 4238.67
+    SGBRG10_CSI2P,2592x1944/0 - Score: 1000
+Stream configuration adjusted
+[0:46:46.681937889] [2374] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 2592x1944-YUV420 (1) 2592x1944-SGBRG10_CSI2P
+[0:46:46.683658666] [2375] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:608 [0mSensor: /base/soc/i2c0mux/i2c@1/ov5647@36 - Selected sensor format: 2592x1944-SGBRG10_1X10 - Selected unicam format: 2592x1944-pGAA
+Still capture image received
+Subfolder '07-02-2024' already exist in '/home/pi/project492/images'.
+Uploaded /home/pi/project492/images/07-02-2024/07-02-2024-19:40:01.jpg to Firebase under images/07-02-2024/07-02-2024-19:40:01.jpg.
+[0:51:43.433838979] [2415] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.1.0+118-563cd78e
+[0:51:43.475391380] [2416] [1;33m WARN [1;37mRPiSdn [1;34msdn.cpp:39 [0mUsing legacy SDN tuning - please consider moving SDN inside rpi.denoise
+[0:51:43.479478947] [2416] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:444 [0mRegistered camera /base/soc/i2c0mux/i2c@1/ov5647@36 to Unicam device /dev/media2 and ISP device /dev/media1
+[0:51:43.479579242] [2416] [1;32m INFO [1;37mRPI [1;34mpipeline_base.cpp:1142 [0mUsing configuration file '/usr/local/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
+Mode selection for 1296:972:12:P
+    SGBRG10_CSI2P,640x480/0 - Score: 3296
+    SGBRG10_CSI2P,1296x972/0 - Score: 1000
+    SGBRG10_CSI2P,1920x1080/0 - Score: 1349.67
+    SGBRG10_CSI2P,2592x1944/0 - Score: 1567
+Stream configuration adjusted
+[0:51:43.481030893] [2415] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 1296x972-YUV420 (1) 1296x972-SGBRG10_CSI2P
+[0:51:43.481479073] [2416] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:608 [0mSensor: /base/soc/i2c0mux/i2c@1/ov5647@36 - Selected sensor format: 1296x972-SGBRG10_1X10 - Selected unicam format: 1296x972-pGAA
+Mode selection for 2592:1944:12:P
+    SGBRG10_CSI2P,640x480/0 - Score: 7832
+    SGBRG10_CSI2P,1296x972/0 - Score: 5536
+    SGBRG10_CSI2P,1920x1080/0 - Score: 4238.67
+    SGBRG10_CSI2P,2592x1944/0 - Score: 1000
+Stream configuration adjusted
+[0:51:46.624744591] [2415] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 2592x1944-YUV420 (1) 2592x1944-SGBRG10_CSI2P
+[0:51:46.626479165] [2416] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:608 [0mSensor: /base/soc/i2c0mux/i2c@1/ov5647@36 - Selected sensor format: 2592x1944-SGBRG10_1X10 - Selected unicam format: 2592x1944-pGAA
+Still capture image received
+Subfolder '07-02-2024' already exist in '/home/pi/project492/images'.
+Uploaded /home/pi/project492/images/07-02-2024/07-02-2024-19:45:01.jpg to Firebase under images/07-02-2024/07-02-2024-19:45:01.jpg.
+[0:56:43.366229259] [2461] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.1.0+118-563cd78e
+[0:56:43.408109579] [2462] [1;33m WARN [1;37mRPiSdn [1;34msdn.cpp:39 [0mUsing legacy SDN tuning - please consider moving SDN inside rpi.denoise
+[0:56:43.412592180] [2462] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:444 [0mRegistered camera /base/soc/i2c0mux/i2c@1/ov5647@36 to Unicam device /dev/media2 and ISP device /dev/media1
+[0:56:43.412694271] [2462] [1;32m INFO [1;37mRPI [1;34mpipeline_base.cpp:1142 [0mUsing configuration file '/usr/local/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
+Mode selection for 1296:972:12:P
+    SGBRG10_CSI2P,640x480/0 - Score: 3296
+    SGBRG10_CSI2P,1296x972/0 - Score: 1000
+    SGBRG10_CSI2P,1920x1080/0 - Score: 1349.67
+    SGBRG10_CSI2P,2592x1944/0 - Score: 1567
+Stream configuration adjusted
+[0:56:43.414003961] [2461] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 1296x972-YUV420 (1) 1296x972-SGBRG10_CSI2P
+[0:56:43.414439679] [2462] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:608 [0mSensor: /base/soc/i2c0mux/i2c@1/ov5647@36 - Selected sensor format: 1296x972-SGBRG10_1X10 - Selected unicam format: 1296x972-pGAA
+Mode selection for 2592:1944:12:P
+    SGBRG10_CSI2P,640x480/0 - Score: 7832
+    SGBRG10_CSI2P,1296x972/0 - Score: 5536
+    SGBRG10_CSI2P,1920x1080/0 - Score: 4238.67
+    SGBRG10_CSI2P,2592x1944/0 - Score: 1000
+Stream configuration adjusted
+[0:56:46.552787615] [2461] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 2592x1944-YUV420 (1) 2592x1944-SGBRG10_CSI2P
+[0:56:46.554530467] [2462] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:608 [0mSensor: /base/soc/i2c0mux/i2c@1/ov5647@36 - Selected sensor format: 2592x1944-SGBRG10_1X10 - Selected unicam format: 2592x1944-pGAA
+Still capture image received
+Subfolder '07-02-2024' already exist in '/home/pi/project492/images'.
+Uploaded /home/pi/project492/images/07-02-2024/07-02-2024-19:50:01.jpg to Firebase under images/07-02-2024/07-02-2024-19:50:01.jpg.
+[1:01:43.385272139] [2501] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.1.0+118-563cd78e
+[1:01:43.427119505] [2502] [1;33m WARN [1;37mRPiSdn [1;34msdn.cpp:39 [0mUsing legacy SDN tuning - please consider moving SDN inside rpi.denoise
+[1:01:43.431362128] [2502] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:444 [0mRegistered camera /base/soc/i2c0mux/i2c@1/ov5647@36 to Unicam device /dev/media2 and ISP device /dev/media1
+[1:01:43.431468312] [2502] [1;32m INFO [1;37mRPI [1;34mpipeline_base.cpp:1142 [0mUsing configuration file '/usr/local/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
+Mode selection for 1296:972:12:P
+    SGBRG10_CSI2P,640x480/0 - Score: 3296
+    SGBRG10_CSI2P,1296x972/0 - Score: 1000
+    SGBRG10_CSI2P,1920x1080/0 - Score: 1349.67
+    SGBRG10_CSI2P,2592x1944/0 - Score: 1567
+Stream configuration adjusted
+[1:01:43.432953463] [2501] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 1296x972-YUV420 (1) 1296x972-SGBRG10_CSI2P
+[1:01:43.433407421] [2502] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:608 [0mSensor: /base/soc/i2c0mux/i2c@1/ov5647@36 - Selected sensor format: 1296x972-SGBRG10_1X10 - Selected unicam format: 1296x972-pGAA
+Mode selection for 2592:1944:12:P
+    SGBRG10_CSI2P,640x480/0 - Score: 7832
+    SGBRG10_CSI2P,1296x972/0 - Score: 5536
+    SGBRG10_CSI2P,1920x1080/0 - Score: 4238.67
+    SGBRG10_CSI2P,2592x1944/0 - Score: 1000
+Stream configuration adjusted
+[1:01:46.572758816] [2501] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 2592x1944-YUV420 (1) 2592x1944-SGBRG10_CSI2P
+[1:01:46.575151699] [2502] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:608 [0mSensor: /base/soc/i2c0mux/i2c@1/ov5647@36 - Selected sensor format: 2592x1944-SGBRG10_1X10 - Selected unicam format: 2592x1944-pGAA
+Still capture image received
+Subfolder '07-02-2024' already exist in '/home/pi/project492/images'.
+Uploaded /home/pi/project492/images/07-02-2024/07-02-2024-19:55:01.jpg to Firebase under images/07-02-2024/07-02-2024-19:55:01.jpg.
