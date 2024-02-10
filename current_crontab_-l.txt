@@ -1,4 +1,0 @@
-*/5 8-16 * * 1-5 /usr/bin/python3 /home/pi/project492/main.py >> /home/pi/project492/cronlog.log 2>&1
-
-*/5 8-16 * * 1-5 /usr/bin/python3 /home/pi/project492/upload.py >> /home/pi/project492/cronlog.log 2>&1  
-.
