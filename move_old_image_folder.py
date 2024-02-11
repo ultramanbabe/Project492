@@ -27,6 +27,6 @@ def move_old_folder(source_folder, destination_folder, threshold_days): # Move f
 if __name__ == "__main__":
     source_folder = '/home/pi/project492/images'
     destination_folder = '/home/pi/project492/old_images'
-    threshold_days = 2
+    threshold_days = 1
     move_old_folder(source_folder, destination_folder, threshold_days)
 
