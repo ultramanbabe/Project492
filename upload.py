@@ -24,6 +24,7 @@ def list_files_in_local_folder(local_folder):
 
 # Reading folder as a list
 def list_folders_in_local_folder(local_folder):
+    folder_list = []
     for dir in dirs: 
         folder_path = os.path.join(root, dir)
         cloud_path = os.path.join('images', os.path.relpath(folder_path, local_folder))
