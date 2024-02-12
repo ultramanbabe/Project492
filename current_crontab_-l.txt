@@ -1,0 +1,5 @@
+*/5 8-16 * * 1-5 /usr/bin/python3 /home/pi/project492/capture_image.py >> /home/pi/project492/cronlog.log 2>&1
+
+*/5 8-16 * * 1-5 /usr/bin/python3 /home/pi/project492/sync_firebase.py >> /home/pi/project492/cronlog.log 2>&1
+
+0 0 * * * /usr/bin/python3 /home/pi/project492/move_old_image_folder.py >> /home/pi/project492/cronlog.log 2>&1
