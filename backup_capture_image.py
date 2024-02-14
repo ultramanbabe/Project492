@@ -23,7 +23,6 @@ else:
     print(f"Image Captured. Saving the \'" + current_time + ".jpg\' image.")
 
 #capture image
-subprocess.run('rpicam-jpeg --width 2592 --height 1944 -q 100 --shutter 80000 --gain 0.7 --verbose 0 -n -o /home/pi/project492/images/"$(date "+%d-%m-%Y")"/"$(date +%d-%m-%Y-%T)".jpg' , shell=True)
-
+subprocess.run('rpicam-jpeg --width 2592 --height 1944 -q 100 -t 3000 --shutter 200000 --gain 1.5 --verbose 0 -n -o /home/pi/project492/images/"$(date "+%d-%m-%Y")"/"$(date +%d-%m-%Y-%T)".jpg' , shell=True)
 
 
