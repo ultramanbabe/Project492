@@ -60,7 +60,7 @@ def delete_file_from_firebase(local_path, cloud_path):
 
 
 if __name__ == '__main__':
-    time.sleep(5) 
+    time.sleep(10) 
     local_folder = '/home/pi/project492/images'
     local_files = list_files_in_local_folder(local_folder)
     cloud_files = list_files_in_firebase_storage()
