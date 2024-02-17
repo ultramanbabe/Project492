@@ -11,7 +11,7 @@ images_folder = "/home/pi/project492/images"
 current_date = datetime.now().strftime("%d-%m-%Y")
 subfolder_name = current_date
 subfolder_path = os.path.join(images_folder, subfolder_name)
-current_time = datetime.now().strftime("%d-%m-%Y-%T")
+current_time = datetime.now().strftime("%d-%m-%Y-%H%M")
 
 #check if the folder exists
 if not os.path.exists(subfolder_path):
@@ -23,7 +23,7 @@ else:
     print(f"Image Captured. Saving the \'" + current_time + ".jpg\' image.")
 
 #capture image
-subprocess.run('rpicam-jpeg --width 2592 --height 1944 -q 100 --shutter 40000 --gain 1 --vflip --hflip --verbose 0 -n -o /home/pi/project492/images/"$(date "+%d-%m-%Y")"/"$(date +%d-%m-%Y-%T)".jpg' , shell=True)
+subprocess.run('rpicam-jpeg --width 2592 --height 1944 -q 100 --shutter 40000 --gain 1 --vflip --hflip --verbose 0 -n -o /home/pi/project492/images/"$(date "+%d-%m-%Y")"/"$(date +%d-%m-%Y-%H%M)".jpg' , shell=True)
 
 
 
