@@ -1,4 +1,4 @@
 Puriwong Lernantaporn
 Project 492
 
-This part is about using raspberry pi to capture images in interval
+This part is about using the Raspberry Pi to capture images at intervals.
